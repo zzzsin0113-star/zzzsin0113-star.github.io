@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>邹鑫 Sam Zou｜产品、影像与生活</title>
+  <meta name="description" content="邹鑫（Sam Zou）的个人主页：应用经济学、产品实践，以及网球、游泳、摄影、旅行和生活记录。">
+  <meta name="theme-color" content="#172019">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="https://zzzsin0113-star.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="邹鑫 Sam Zou｜认真思考，尽兴体验">
+  <meta property="og:description" content="产品、影像、运动与生活。">
+  <meta property="og:url" content="https://zzzsin0113-star.github.io/">
+  <meta property="og:image" content="https://zzzsin0113-star.github.io/assets/images/portrait-mountain.jpg">
+  <link rel="preload" as="image" href="assets/images/portrait-mountain.jpg" fetchpriority="high">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23172019'/%3E%3Ccircle cx='47' cy='17' r='8' fill='%23d9ff63'/%3E%3Cpath d='M15 17h27L16 47h31' fill='none' stroke='%23f5efe3' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=20261123i">
+  <script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__mark">
+      <span>S</span>
+      <span class="preloader__ball"></span>
+      <span>Z</span>
+    </div>
+    <p>DEVELOPING MEMORIES</p>
+    <div class="preloader__track"><span id="preloaderBar"></span></div>
+    <output id="preloaderCount">00</output>
+  </div>
+
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="nav-shell">
+      <a class="brand" href="#home" aria-label="返回首页">
+        <span class="brand__cn">邹鑫</span>
+        <span class="brand__slash">/</span>
+        <span class="brand__en">SAM ZOU</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="主要导航">
+        <a href="#about">关于</a>
+        <a href="#life">生活切面</a>
+        <a href="#photography">摄影</a>
+        <a href="#experience">经历</a>
+        <a href="#contact">联系</a>
+      </nav>
+
+      <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span>
+        <span class="sr-only">打开导航菜单</span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="移动端导航" aria-hidden="true">
+      <a href="#about">关于我 <span>01</span></a>
+      <a href="#life">生活切面 <span>02</span></a>
+      <a href="#photography">摄影作品 <span>03</span></a>
+      <a href="#experience">个人经历 <span>04</span></a>
+      <a href="#contact">联系我 <span>05</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-dark" id="home" aria-labelledby="hero-title">
+      <div class="hero__glow hero__glow--one" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--two" aria-hidden="true"></div>
+      <div class="hero__court-line" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <p class="eyebrow eyebrow--light">
+            <span class="status-dot"></span>
+            BEIJING · 23 · ENFJ-T
+          </p>
+          <h1 id="hero-title">
+            <span>认真思考，</span>
+            <em>尽兴体验。</em>
+          </h1>
+          <div class="hero__role">
+            <span class="sr-only">我是邹鑫，也是产品探索者、辩手、风景记录者、合唱爱好者、生活体验派。</span><span aria-hidden="true">我是邹鑫，也是<span id="typedRole">产品探索者</span><span class="type-cursor" aria-hidden="true"></span></span>
+          </div>
+          <p class="hero__intro">
+            在北京读应用经济学，也在真实的产品问题里寻找答案。场下做产品，场上练下一拍；用镜头保存风景，也认真对待每一顿饭和每一次出发。
+          </p>
+          <div class="hero__actions">
+            <a class="button button--acid" href="#about">开始认识我 <span aria-hidden="true">↘</span></a>
+            <a class="button button--ghost-light" href="#experience">查看经历</a>
+            <a class="button button--orange-line" href="#contact">联系我 <svg class="button__mail" viewBox="0 0 32 24" aria-hidden="true" focusable="false"><rect x="1.5" y="1.5" width="29" height="21" rx="3.5"/><path d="M3 4l13 10L29 4"/></svg></a>
+          </div>
+          <dl class="hero__facts" aria-label="个人速览">
+            <div><dt>BJTU</dt><dd>应用经济学硕士</dd></div>
+            <div><dt>XIAOMI</dt><dd>产品经理</dd></div>
+            <div><dt>JMU</dt><dd>财政学学士</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero__visual reveal reveal--delay" id="heroVisual">
+          <div class="film-card film-card--main">
+            <div class="film-card__topline"><span>SAM / FRAME 01</span><span>OUTSIDE</span></div>
+            <img src="assets/images/portrait-mountain.jpg" alt="邹鑫戴着墨镜在户外的半身照" width="1050" height="1400" fetchpriority="high">
+            <div class="film-card__caption">
+              <span>ONE DAY, ONE LOOK</span>
+              <span>● REC</span>
+            </div>
+          </div>
+          <div class="mini-frame" aria-hidden="true">
+            <img src="assets/images/travel-rocks.jpg" alt="" width="1054" height="1400">
+            <span>SEASIDE / 02</span>
+          </div>
+          <div class="hero__sticker hero__sticker--camera" aria-hidden="true">ENFJ<br>-T</div>
+          <div class="tennis-ball" aria-hidden="true"><span></span></div>
+          <svg class="hero__scribble" viewBox="0 0 180 120" aria-hidden="true">
+            <path d="M8 95c28-61 81-88 155-70M145 9l20 16-26 8"/>
+          </svg>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="向下浏览">
+        <span>SCROLL TO EXPLORE</span><i></i>
+      </a>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>PRODUCT THINKING</span><i>✦</i><span>TENNIS</span><i>✦</i><span>SWIMMING</span><i>✦</i><span>PHOTOGRAPHY</span><i>✦</i><span>TRAVEL</span><i>✦</i><span>CHOIR</span><i>✦</i><span>DEBATE</span><i>✦</i><span>COOKING</span><i>✦</i><span>OOTD</span><i>✦</i>
+        <span>PRODUCT THINKING</span><i>✦</i><span>TENNIS</span><i>✦</i><span>SWIMMING</span><i>✦</i><span>PHOTOGRAPHY</span><i>✦</i><span>TRAVEL</span><i>✦</i><span>CHOIR</span><i>✦</i><span>DEBATE</span><i>✦</i><span>COOKING</span><i>✦</i><span>OOTD</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="about section-paper" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section-heading reveal">
+          <div>
+            <p class="section-index">01 / ABOUT ME</p>
+            <h2 id="about-title">理性看世界，<br><em>感性过生活。</em></h2>
+          </div>
+          <p class="section-heading__side">ABOUT &amp; NOW<br>关于我，以及此刻</p>
+        </header>
+
+        <div class="about__grid">
+          <article class="about__statement reveal">
+            <p class="dropcap">我在北京学习应用经济学，也把经济学训练带进产品与用户问题。对我来说，理性不是减少感受，而是让我更清楚地知道，什么值得认真。</p>
+            <p>生活里，我在球场练习下一拍，在泳池里找回节奏，在取景器里收藏光线，也愿意为朋友做一桌饭。比起把自己装进一种标签，我更喜欢持续体验，再慢慢成为自己。</p>
+
+            <div class="keyword-cloud" aria-label="个人关键词">
+              <span>产品思维</span><span>好奇心</span><span>共情力</span><span>行动派</span>
+              <span>影像记录</span><span>运动习惯</span><span>热爱生活</span><span>体验主义</span>
+            </div>
+          </article>
+
+          <div class="about__portraits reveal reveal--delay" aria-label="个人照片">
+            <figure class="polaroid polaroid--one">
+              <img src="assets/images/portrait-bridge.jpg" alt="邹鑫在江边桥景中的生活照" width="1620" height="1080" loading="lazy">
+              <figcaption>WALKING BY THE RIVER</figcaption>
+            </figure>
+            <figure class="polaroid polaroid--two">
+              <img src="assets/images/graduation.jpg" alt="邹鑫在集美大学毕业时手捧鲜花" width="1080" height="1441" loading="lazy">
+              <figcaption>JIMEI · 2025</figcaption>
+            </figure>
+            <span class="tape tape--one" aria-hidden="true"></span>
+          </div>
+        </div>
+
+        <div class="now-board reveal">
+          <div class="now-board__label"><span>NOW</span><small>我的当前坐标</small></div>
+          <div class="now-board__item"><span class="now-board__num">01</span><div><b>北京</b><p>应用经济学硕士在读，继续理解商业、数据和人。</p></div></div>
+          <div class="now-board__item"><span class="now-board__num">02</span><div><b>产品经理方向</b><p>关心用户体验，也关心方案是否真正落地。</p></div></div>
+          <div class="now-board__item"><span class="now-board__num">03</span><div><b>网球</b><p>球龄一年，右手 2.0，还在把每一拍打得更稳。</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="life section-cream" id="life" aria-labelledby="life-title">
+      <div class="container">
+        <header class="section-heading section-heading--compact reveal">
+          <div>
+            <p class="section-index">02 / MANY SIDES</p>
+            <h2 id="life-title">认真工作，<br><em>也认真生活。</em></h2>
+          </div>
+          <p class="section-heading__description">运动、影像、声音、辩论、食物与小动物，构成工作之外更完整的我。</p>
+        </header>
+
+        <div class="bento">
+          <article class="bento-card tennis-card reveal">
+            <div class="bento-card__media">
+              <video id="tennisVideo" muted loop playsinline preload="none" poster="assets/images/tennis-poster.jpg?v=20261123i" data-src="assets/video/tennis-practice.mp4?v=20261123i" aria-label="邹鑫进行网球训练的视频"></video>
+              <div class="media-shade"></div>
+              <button class="video-toggle" id="videoToggle" type="button" aria-label="播放网球训练视频" aria-pressed="false">
+                <span class="video-toggle__play">▶</span><span class="video-toggle__pause">Ⅱ</span>
+              </button>
+              <span class="media-tag">TENNIS / 01 YEAR</span>
+            </div>
+            <div class="bento-card__body bento-card__body--dark">
+              <div><p class="card-kicker">RIGHT-HANDED · LEVEL 2.0</p><h3>每一拍，都离风更近。</h3></div>
+              <p>球龄一年，右手持拍。在一次次挥拍里听见球与风的回响，也看着自己一点点变稳。</p>
+            </div>
+            <div class="scoreboard" aria-hidden="true"><span>SAM</span><b>2.0</b><i>40</i></div>
+          </article>
+
+          <article class="bento-card swim-card reveal reveal--delay">
+            <div class="swim-card__images">
+              <img class="swim-card__main" src="assets/images/swim-pool.jpg" alt="邹鑫在泳池中的照片" width="1080" height="1440" loading="lazy">
+              <img class="swim-card__small" src="assets/images/swim-action.jpg" alt="邹鑫在泳池边整理泳镜" width="1080" height="1440" loading="lazy">
+            </div>
+            <div class="water-lines" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div class="swim-card__copy">
+              <p class="card-kicker">SWIMMING / BREASTSTROKE</p>
+              <h3>沉入水里，<br>听见自己的呼吸。</h3>
+            </div>
+          </article>
+
+          <article class="bento-card mbti-card reveal">
+            <span class="mbti-card__top">PERSONALITY, NOT A BOX</span>
+            <div class="mbti-card__type">ENFJ<span>-T</span></div>
+            <p>喜欢倾听，也喜欢把人连在一起；同时也在学着，给自己留一段安静的时间。</p>
+            <div class="mbti-card__traits"><span>共情</span><span>表达</span><span>连接</span><span>行动</span></div>
+          </article>
+
+          <article class="bento-card gear-card reveal">
+            <div class="camera-icon" aria-hidden="true">
+              <span class="camera-icon__lens"><i></i></span>
+              <span class="camera-icon__flash"></span>
+            </div>
+            <p class="card-kicker">MY CAMERA</p>
+            <h3>FUJIFILM<br><strong>X-T30</strong></h3>
+            <div class="gear-card__line"></div>
+            <p>SIGMA 18–50mm</p>
+            <a href="#photography">去看我眼里的风景 <span>↗</span></a>
+          </article>
+
+          <article class="bento-card small-life-card small-life-card--choir reveal">
+            <img src="assets/images/choir.jpg" alt="邹鑫参加合唱演出时的舞台照片" width="1620" height="1080" loading="lazy">
+            <div><span>CHOIR</span><h3>许多声音，<br>汇成一片星河。</h3></div>
+          </article>
+
+          <article class="bento-card city-card city-card--xiamen reveal">
+            <img class="city-card__bg" src="assets/images/city-xiamen.jpg?v=20261123i" alt="黄昏时的厦门世茂海峡大厦双子塔，背后是海" width="900" height="1350" loading="lazy">
+            <div class="postcard-stamp" aria-hidden="true">XIA<br><span>MEN</span></div>
+            <p class="card-kicker">MY FAVORITE CITY</p>
+            <h3>厦门，<br>心里最偏爱的那座城。</h3>
+            <p>走过许多城市，最想回去的还是这里。黄昏里的双子塔，环岛路上的海风，不急不慢，刚好是我喜欢的节奏。</p>
+          </article>
+
+          <article class="bento-card city-card city-card--chongqing reveal reveal--delay">
+            <img class="city-card__bg" src="assets/images/city-chongqing.jpg?v=20261123i" alt="夜晚灯火通明的重庆洪崖洞" width="1100" height="618" loading="lazy">
+            <div class="postcard-stamp" aria-hidden="true">CHONG<br><span>QING</span></div>
+            <p class="card-kicker">NEXT TRIP</p>
+            <h3>重庆，<br>还欠我一场夜色。</h3>
+            <p>坡道一层叠着一层，江面的灯火亮到深夜。总觉得那里还有没走完的路，想再去一次。</p>
+          </article>
+
+          <article class="bento-card small-life-card small-life-card--stage reveal reveal--delay">
+            <img src="assets/images/choir-stage.jpg?v=20261123i" alt="邹鑫穿礼服站在合唱舞台上" width="762" height="1400" loading="lazy">
+            <div><span>ON STAGE</span><h3>灯光落下时，<br>我站进和声里。</h3></div>
+          </article>
+
+          <article class="bento-card debate-card reveal" id="debate">
+            <figure class="debate-card__photo"><img src="assets/images/debate-trophy.jpg?v=20261123i" alt="邹鑫举着辩论赛团体冠军奖杯" width="1050" height="1400" loading="lazy"></figure>
+            <figure class="debate-card__photo"><img src="assets/images/debate-pennant.jpg?v=20261123i" alt="邹鑫在新生辩论赛颁奖台上手持优秀奖锦旗" width="1050" height="1400" loading="lazy"></figure>
+            <div class="debate-card__copy">
+              <div>
+                <p class="card-kicker">DEBATE / JMU</p>
+                <h3>言语交锋处，<br>思想有了回声。</h3>
+              </div>
+              <p>本科时站上辩论赛场。在一次次立论与反驳里，我学会把复杂的问题拆开，也学会在分歧之间，安静地听见另一种声音。</p>
+              <div class="debate-card__awards"><span>团体冠军</span><span>新生赛优秀奖</span></div>
+            </div>
+          </article>
+
+          <article class="bento-card small-life-card small-life-card--food reveal reveal--delay">
+            <img src="assets/images/cooking.jpg" alt="邹鑫做的一桌家常菜" width="1441" height="1080" loading="lazy">
+            <div><span>COOK &amp; EAT</span><h3>烟火升起，<br>日子就有了温度。</h3></div>
+          </article>
+
+          <article class="bento-card small-life-card small-life-card--cat reveal">
+            <img src="assets/images/cat-together.jpg?v=20261123i" alt="邹鑫和猫咪躺在一起" width="1392" height="776" loading="lazy">
+            <div><span>CAT PERSON</span><h3>猫在身边，<br>时间也变软了。</h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="photography section-dark" id="photography" aria-labelledby="photo-title">
+      <div class="photo-orbit" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section-heading section-heading--dark reveal">
+          <div>
+            <p class="section-index">03 / THROUGH MY LENS</p>
+            <h2 id="photo-title">我按下快门，<br><em>是想让时间慢一点。</em></h2>
+          </div>
+          <div class="photo-heading__meta">
+            <span>FUJIFILM X-T30</span>
+            <span>SIGMA 18–50mm</span>
+            <span>LANDSCAPE / DAILY</span>
+          </div>
+        </header>
+
+        <div class="photo-grid" id="photoGrid">
+          <button class="photo-item photo-item--tall reveal" type="button" data-full="assets/images/photo-architecture.jpg" data-title="LOOK UP" data-caption="建筑向上，树叶把天空围成取景框。">
+            <img src="assets/images/photo-architecture.jpg" alt="树叶间向上延伸的城市建筑" width="1080" height="1620" loading="lazy">
+            <span><i>01</i><b>LOOK UP</b><small>STRUCTURE &amp; SKY</small></span>
+          </button>
+          <button class="photo-item photo-item--wide reveal reveal--delay" type="button" data-full="assets/images/photo-bikes.jpg" data-title="ORDER" data-caption="重复、透视，以及城市里自成秩序的颜色。">
+            <img src="assets/images/photo-bikes.jpg" alt="街边整齐排列的黄色共享单车" width="1080" height="1620" loading="lazy">
+            <span><i>02</i><b>ORDER</b><small>CITY RHYTHM</small></span>
+          </button>
+          <button class="photo-item reveal" type="button" data-full="assets/images/photo-autumn.jpg" data-title="LITTLE AUTUMN" data-caption="一地金黄里，小朋友拥有自己的秋天。">
+            <img src="assets/images/photo-autumn.jpg" alt="铺满银杏叶的路边，一名小朋友蹲在落叶中" width="1080" height="1620" loading="lazy">
+            <span><i>03</i><b>LITTLE AUTUMN</b><small>WARM LIGHT</small></span>
+          </button>
+          <button class="photo-item photo-item--wide reveal reveal--delay" type="button" data-full="assets/images/photo-ginkgo.jpg" data-title="GOLDEN ROAD" data-caption="树影、行人和一条发光的路。">
+            <img src="assets/images/photo-ginkgo.jpg" alt="两侧银杏金黄的校园道路" width="1620" height="1080" loading="lazy">
+            <span><i>04</i><b>GOLDEN ROAD</b><small>AUTUMN WALK</small></span>
+          </button>
+          <button class="photo-item reveal" type="button" data-full="assets/images/photo-motion.jpg" data-title="MOTION" data-caption="旋转一束花，让静止的颜色开始流动。">
+            <img src="assets/images/photo-motion.jpg" alt="通过旋转动态拍摄的红色花朵" width="1080" height="1620" loading="lazy">
+            <span><i>05</i><b>MOTION</b><small>COLOR IN MOTION</small></span>
+          </button>
+          <button class="photo-item photo-item--tall reveal" type="button" data-full="assets/images/photo-sea.jpg" data-title="THE EDGE" data-caption="海天很淡，人的尺度变得很小。">
+            <img src="assets/images/photo-sea.jpg" alt="阴天海面上延伸的石堤与远处行人" width="1080" height="1620" loading="lazy">
+            <span><i>06</i><b>THE EDGE</b><small>SEA &amp; PEOPLE</small></span>
+          </button>
+        </div>
+        <p class="gallery-hint reveal"><span aria-hidden="true">↗</span> 点击照片，进入单张观看</p>
+      </div>
+    </section>
+
+    <section class="style-diary section-paper" id="style" aria-labelledby="style-title">
+      <div class="container">
+        <header class="section-heading section-heading--compact reveal">
+          <div>
+            <p class="section-index">04 / OOTD &amp; JOURNEY</p>
+            <h2 id="style-title">穿什么，<br><em>也是当天的心情。</em></h2>
+          </div>
+          <div class="reel-controls" aria-label="穿搭相册控制">
+            <button id="reelPrev" type="button" aria-label="向前浏览">←</button>
+            <button id="reelNext" type="button" aria-label="向后浏览">→</button>
+          </div>
+        </header>
+      </div>
+
+      <div class="style-reel reveal" id="styleReel" tabindex="0" aria-label="穿搭与旅行照片横向相册">
+        <figure class="style-frame style-frame--yellow">
+          <div><img src="assets/images/travel-disney.jpg" alt="邹鑫在乐园的图案穿搭" width="1080" height="1440" loading="lazy"></div>
+          <figcaption><span>01 / PLAY</span><b>图案、阳光与一点童心</b></figcaption>
+        </figure>
+        <figure class="style-frame style-frame--blue">
+          <div><img src="assets/images/ootd-temple.jpg" alt="邹鑫身穿格纹外套的旅行穿搭" width="1440" height="2160" loading="lazy"></div>
+          <figcaption><span>02 / CLASSIC</span><b>格纹与黑色内搭</b></figcaption>
+        </figure>
+        <figure class="style-frame style-frame--orange">
+          <div><img src="assets/images/travel-universal.jpg" alt="邹鑫在主题乐园的围巾穿搭" width="1620" height="1080" loading="lazy"></div>
+          <figcaption><span>03 / TRIP</span><b>把旅行穿进照片里</b></figcaption>
+        </figure>
+        <figure class="style-frame style-frame--green">
+          <div><img src="assets/images/ootd-ethnic.jpg" alt="邹鑫在草原体验当地服饰" width="1080" height="1440" loading="lazy"></div>
+          <figcaption><span>04 / LOCAL</span><b>走进一处新的风景</b></figcaption>
+        </figure>
+        <figure class="style-frame style-frame--blue">
+          <div><img src="assets/images/ootd-mountain.jpg" alt="邹鑫在山间的白色户外穿搭" width="1080" height="1440" loading="lazy"></div>
+          <figcaption><span>05 / OUTDOOR</span><b>轻装去看更远的山</b></figcaption>
+        </figure>
+        <figure class="style-frame style-frame--orange">
+          <div><img src="assets/images/travel-sailing.jpg" alt="邹鑫乘船出海时的旅行照片" width="1440" height="1080" loading="lazy"></div>
+          <figcaption><span>06 / SEA</span><b>海风是最好的配饰</b></figcaption>
+        </figure>
+        <figure class="style-frame style-frame--yellow">
+          <div><img src="assets/images/ootd-cactus.jpg" alt="邹鑫站在仙人掌景观前的背影" width="1440" height="1080" loading="lazy"></div>
+          <figcaption><span>07 / BACK VIEW</span><b>偶尔把正面留给风景</b></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="experience section-cream" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <header class="section-heading reveal">
+          <div>
+            <p class="section-index">05 / EXPERIENCE</p>
+            <h2 id="experience-title">把想法整理清楚，<br><em>再推动它发生。</em></h2>
+          </div>
+          <p class="section-heading__description">经济学训练让我关注激励与选择，产品实践让我始终回到用户、数据和落地。</p>
+        </header>
+
+        <div class="experience-layout">
+          <aside class="education-panel reveal">
+            <div class="education-panel__photo">
+              <img src="assets/images/portrait-event.jpg" alt="邹鑫参加活动时的生活照片" width="1920" height="2560" loading="lazy">
+              <span>ECONOMICS × PRODUCT</span>
+            </div>
+            <div class="education-panel__content">
+              <p class="card-kicker">EDUCATION</p>
+              <article>
+                <time>2025.09 — 2028.06</time>
+                <div class="edu-school"><img src="assets/images/logo-bjtu.png?v=20261123i" alt="北京交通大学校徽" width="40" height="40"><h3>北京交通大学</h3></div>
+                <p>应用经济学 · 硕士</p>
+                <small>GPA 3.54 / 4 · 校级二等奖学金</small>
+              </article>
+              <article>
+                <time>2021.09 — 2025.06</time>
+                <div class="edu-school"><img src="assets/images/logo-jmu.png?v=20261123i" alt="集美大学校徽" width="40" height="40"><h3>集美大学</h3></div>
+                <p>财政学 · 学士</p>
+                <small>校级三等奖学金 · 优秀学生干部</small>
+              </article>
+            </div>
+          </aside>
+
+          <div class="timeline" aria-label="实习和项目经历">
+            <article class="timeline-item reveal">
+              <div class="timeline-item__rail"><span>01</span><i></i></div>
+              <div class="timeline-item__content">
+                <div class="timeline-item__meta"><span>2026.09 — 至今</span><em>产品经理</em></div>
+                <div class="timeline-item__org"><span class="org-logo"><img src="assets/images/logo-xiaomi.svg?v=20261123i" alt="小米 logo" width="48" height="48"></span><h3>小米</h3></div>
+                <p class="timeline-item__lead">参与智能硬件增值服务的售后体验优化，以及付费活动产品迭代。</p>
+                <ul>
+                  <li>借助 AI 梳理复杂售后场景，设计用户挽留流程，输出 PRD 与交互原型，跨团队推动上线。</li>
+                  <li>优先复用已有能力控制研发成本，上线后人工处理量明显下降。</li>
+                  <li>参与文案与价格实验，结合竞品和数据分析支持活动复盘。</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-item__rail"><span>02</span><i></i></div>
+              <div class="timeline-item__content">
+                <div class="timeline-item__meta"><span>2026.05 — 2026.08</span><em>产品运营</em></div>
+                <div class="timeline-item__org"><span class="org-logo"><img src="assets/images/logo-maoyan.png?v=20261123i" alt="猫眼娱乐 logo" width="48" height="48"></span><h3>猫眼娱乐</h3></div>
+                <p class="timeline-item__lead">参与暑期大促从 0 到 1 搭建，覆盖活动产品、投放和用户运营。</p>
+                <ul>
+                  <li>输出简化版活动 PRD 与基础原型，协同确定优惠券规则和页面物料规范。</li>
+                  <li>统筹站内多渠道排期，监控曝光、UV、核销和转化，持续复盘素材与策略。</li>
+                  <li>使用 SQL 筛选用户行为数据并完成分层，配置差异化权益与 PUSH 召回。</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-item__rail"><span>03</span><i></i></div>
+              <div class="timeline-item__content">
+                <div class="timeline-item__meta"><span>2025.06 — 2025.09</span><em>项目实习生</em></div>
+                <div class="timeline-item__org"><span class="org-logo org-logo--wide"><img src="assets/images/logo-jinzhuan.png?v=20261123i" alt="金砖研究院 logo" width="48" height="26"></span><h3>厦门市金砖未来技能发展与技术创新研究院</h3></div>
+                <p class="timeline-item__lead">负责国际技能赛事的高校宣传，并参与活动 App 页面优化。</p>
+                <ul>
+                  <li>结合经管、理工科学生差异调整内容和渠道，优化细分人群传播。</li>
+                  <li>梳理搜索词与用户浏览路径，调整页面信息层级以减少流失。</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="project-strip reveal">
+          <div class="project-strip__title"><span>SELECTED PROJECTS</span><h3>项目与校园实践</h3></div>
+          <article>
+            <span>2026</span>
+            <h4>夜展星程 · 深圳科技主题夜间会展</h4>
+            <p>项目负责人。围绕 VR 试穿、无人机体验与智能互动设备，完成场景、商业模型和 12 个月落地扩张规划。</p>
+          </article>
+          <article>
+            <span>2023</span>
+            <h4>创新会展形式与夜间经济研究</h4>
+            <p>走访商圈与文旅场馆，完成市场现状、消费人群与可行模式分析。</p>
+          </article>
+          <article>
+            <span>2021—2026</span>
+            <h4>学生工作与活动统筹</h4>
+            <p>先后参与集美大学学生会与北京交通大学研究生会，负责赛事、校园歌手大赛与大型活动执行。</p>
+          </article>
+        </div>
+
+        <div class="radar-board reveal" id="radarBoard">
+          <div class="radar-board__copy">
+            <p class="card-kicker">ABILITY RADAR</p>
+            <h3>能力雷达</h3>
+            <p>根据实习、项目与校园经历做的自我评估，满分 100。</p>
+            <ul class="radar-legend" id="radarLegend">
+              <li data-value="86"><span>产品设计</span><b>86</b></li>
+              <li data-value="88"><span>需求分析</span><b>88</b></li>
+              <li data-value="84"><span>数据分析</span><b>84</b></li>
+              <li data-value="85"><span>AI 应用</span><b>85</b></li>
+              <li data-value="82"><span>用户运营</span><b>82</b></li>
+              <li data-value="90"><span>沟通表达</span><b>90</b></li>
+            </ul>
+            <div class="radar-board__traits" aria-label="性格关键词">
+              <span>结果导向</span><span>用户同理心</span><span>数据驱动</span><span>跨团队推动</span>
+            </div>
+          </div>
+          <figure class="radar-chart">
+            <svg id="radarChart" viewBox="0 0 460 420" role="img" aria-label="能力雷达图：产品设计 86，需求分析 88，数据分析 84，AI 应用 85，用户运营 82，沟通表达 90"></svg>
+          </figure>
+        </div>
+        <div class="skill-board reveal">
+          <p class="card-kicker">TOOLS &amp; SKILLS</p>
+          <div>
+            <span>PRD</span>
+            <span>SQL</span><span>Python</span><span>Stata</span><span>Excel</span>
+            <span>Figma</span><span>Power BI</span><span>HTML 原型</span><span>AI Tools</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-dark" id="contact" aria-labelledby="contact-title">
+      <div class="contact__rings" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="container contact__inner">
+        <div class="contact__main reveal">
+          <p class="section-index">06 / SAY HELLO</p>
+          <h2 id="contact-title">交换故事，<br><em>也交换灵感。</em></h2>
+          <p>如果你想聊产品、摄影、网球，或者北京哪里好吃，欢迎来找我。</p>
+          <a class="button button--acid" href="mailto:1763444145@qq.com">写一封邮件 <span>↗</span></a>
+        </div>
+
+        <div class="contact-list reveal reveal--delay">
+          <a href="mailto:1763444145@qq.com">
+            <span>EMAIL</span><b>1763444145@qq.com</b><i>↗</i>
+          </a>
+          <button type="button" class="copy-contact" data-copy="Zzzsin-">
+            <span>WECHAT</span><b>Zzzsin-</b><i>复制</i>
+          </button>
+          <button type="button" class="copy-contact" data-copy="guhai38849">
+            <span>DOUYIN</span><b>@guhai38849</b><i>复制</i>
+          </button>
+          <div>
+            <span>LOCATION</span><b>Beijing, China</b><i>40°N</i>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-line">
+        <p>© <span id="currentYear"></span> SAM ZOU</p>
+        <p>THINK DEEPLY · LIVE FULLY</p>
+        <a href="#home">BACK TO TOP ↑</a>
+      </div>
+      <p class="container photo-credit">城市照片：<a href="https://commons.wikimedia.org/wiki/File:202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg" target="_blank" rel="noopener">洪崖洞 © Jonashtand</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Xiamen_Shimao_Straits_Tower_at_dusk.jpg" target="_blank" rel="noopener">双子塔 © 周流劲火</a>, <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noopener">CC BY 2.5</a></p>
+    </section>
+  </main>
+
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightboxTitle">
+    <button class="lightbox__close" id="lightboxClose" type="button" aria-label="关闭大图">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" type="button" aria-label="上一张">←</button>
+    <figure>
+      <img id="lightboxImage" src="" alt="">
+      <figcaption><span id="lightboxIndex"></span><div><h3 id="lightboxTitle"></h3><p id="lightboxCaption"></p></div></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" type="button" aria-label="下一张">→</button>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">已复制</div>
+  <script src="script.js?v=20261123i" defer></script>
+</body>
+</html>
