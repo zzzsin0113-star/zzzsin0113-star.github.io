@@ -273,17 +273,20 @@
     if (event.key === 'ArrowRight') renderLightbox(activePhoto + 1);
   });
 
-  /* OOTD reel controls */
-  const styleReel = $('#styleReel');
-  const scrollReel = (direction) => {
-    if (!styleReel) return;
-    const firstFrame = $('.style-frame', styleReel);
-    const gap = Number.parseFloat(getComputedStyle(styleReel).gap) || 20;
-    const distance = firstFrame ? firstFrame.getBoundingClientRect().width + gap : window.innerWidth * 0.75;
-    styleReel.scrollBy({ left: direction * distance, behavior: reduceMotion ? 'auto' : 'smooth' });
+  /* Horizontal reels: arrow buttons scroll by one card */
+  const scrollReel = (reel, direction) => {
+    const firstItem = reel.firstElementChild;
+    const gap = Number.parseFloat(getComputedStyle(reel).columnGap) || 20;
+    const distance = firstItem ? firstItem.getBoundingClientRect().width + gap : reel.clientWidth * 0.75;
+    reel.scrollBy({ left: direction * distance, behavior: reduceMotion ? 'auto' : 'smooth' });
   };
-  $('#reelPrev')?.addEventListener('click', () => scrollReel(-1));
-  $('#reelNext')?.addEventListener('click', () => scrollReel(1));
+  $$('.reel-controls[data-reel]').forEach((controls) => {
+    const reel = document.getElementById(controls.dataset.reel);
+    if (!reel) return;
+    $$('button[data-dir]', controls).forEach((button) => {
+      button.addEventListener('click', () => scrollReel(reel, Number(button.dataset.dir)));
+    });
+  });
 
   /* Copy and reveal contact information */
   const toast = $('#toast');
